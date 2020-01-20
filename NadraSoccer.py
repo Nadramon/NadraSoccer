@@ -355,10 +355,6 @@ async def on_message(message):
         return
 
 
-    if message.content.startswith("test"):
-        await client.send_message(message.channel,"nader is gay")
-
-
     if message.content.startswith("??"):
         lowered = (message.content).lower()
         msgParts = lowered.split()
